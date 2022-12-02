@@ -1,3 +1,7 @@
 Caroline
 Vivien
 Lyon
+
+
+creation stash
+code with stash.. my version is bug then i use stash for commit
