@@ -83,6 +83,7 @@
                         Hic enim aliquid perspiciatis quo ratione vel eius natus quas consectetur temporibus amet, blanditiis reiciendis et sapiente modi placeat quod delectus est vitae eaque nostrum perferendis. Molestiae iusto ad cupiditate?
                         Harum soluta aliquid eos! Dicta illum doloribus omnis? Ratione magnam deserunt ducimus corrupti repudiandae porro ea culpa accusamus vitae. Incidunt debitis harum labore blanditiis quae et, nostrum beatae. Veniam, mollitia?</p>
                 </p>
+                <a href="#citation">Voir notre dernière citation sur les chats</a>
             </article>
             <hr>
             <aside>
@@ -98,7 +99,12 @@
                 </header>
                 <img src="https://placekitten.com/200/287" alt="A Cute cat" width="300px"><button disabled="true">Click here</button>
                 <p>Les <strong>chats</strong> sont les membres de la famille des <em>félins</em>, et ils partagent de nombreuses caractéristiques avec leurs cousins ​​les lions, les tigres et les panthères. Les chats domestiques sont les plus populaires au monde et sont adorés par des millions de personnes pour leur compagnie et leur affectueuse nature.</p>
-                <a href="#citation">Voir notre dernière citation sur les chats</a>
+                <!-- ajout d'une video youtube--><!-- attention les iframes probleme de securité, etre sur du site qu'on ajoute, sinon utiliser l'attribut sandbox pour bloquer les scripts entrants-->
+                <iframe width="640" height="360"
+                    src="http://www.youtube.com/embed/gYeG-TLImlw?autoplay=1"
+                    frameborder="0">
+                    <p>Votre navigateur ne prend pas en charge les iframes. Vous pouvez visiter la page pour <a href="http://www.youtube.com/embed/gYeG-TLImlw?autoplay=1">visualiser la vidéo</a>.</p>
+                </iframe>  
                 <header>
                     <h3>Quelle est l'histoire des chats ?</h3>
                 </header>
@@ -108,8 +114,20 @@
                 <p>Les chats ont été introduits en Europe au <em>Moyen Âge</em>, où ils ont été utilisés pour <strong>chasser les rats et les souris</strong>. Les nobles européens ont rapidement adopté les chats comme animaux de compagnie, et ils ont été très appréciés pour leur beauté et leur personnalité. Au fil du temps, les chats ont été introduits dans d'autres parties du monde, et ils ont rapidement gagné en popularité.</p>
                 <h4>Quelles sont les caractéristiques des chats ?</h4>
                 <!-- abbr permet d'ajouter des description d'abréviation -->
-                <p>Les chats sont des animaux très <em>intelligents</em> et ils ont un <em>sens aigu de l'observation</em>. Ils sont également très flexibles, et ils peuvent se contorsionner pour atteindre des endroits inaccessibles. Les chats sont capables de <strong>sauter jusqu'à cinq fois leur hauteur</strong>, et ils peuvent courir à des <strong>vitesses allant jusqu'à 45 <abbr title="kilomètre">km</abbr>/<abbr title="heure">h</abbr></strong>.</p>
+                <p>Les chats sont des animaux très <em>intelligents</em> et ils ont un <em>sens aigu de l'observation</em>. Ils sont également très flexibles, et ils peuvent se contorsionner pour atteindre des endroits inaccessibles. Les chats sont capables de <strong>sauter jusqu'à cinq fois leur hauteur</strong>, et ils peuvent courir à des <strong>vitesses allant jusqu'à 45 <abbr title="kilomètre">km</abbr>/<abbr title="heure">h</abbr></strong><strong><a href='#figure1'>(Voir Graphique)</a></strong>.</p>
                 <p>Les chats ont une <strong>excellente vision nocturne</strong>, et ils sont très sensibles aux mouvements. Ils ont également un excellent sens de l'odorat, et ils peuvent détecter des odeurs à des distances allant jusqu'à 100 mètres. </p>
+                <figure id="figure2">
+                    <video controls autoplay loop muted width="300">
+                        <source src="video.mp4" type="video/mp4">
+                        <!--permet d'ajouter du contenu alternatif pour les non voyants, sourd...-->
+                        <track kind="captions" src="my_captions.vtt" srclang="fr">
+                        <track kind="descriptions" src="my_captions.vtt" srclang="fr">
+                        <track kind="subtitles" src="my_captions.vtt" srclang="fr">
+                        <p>Impossible de jouer la vidéo. Vous pouvez <a href="video.mp4">télécharger la vidéo</a> afin de la visionner.
+                        </p>
+                    </video>
+                    <figcaption>Video d'un chat.</figcaption>
+                </figure>
                 <br>
                 <!-- ajoute un id pour naviguer avec un lien dans le contenu de la page (à utiliser avec un lien <a>) -->
                 <h4 id="citation">Citation sur les chats:</h4>
@@ -118,6 +136,8 @@
                     Les chats sont les membres de la famille des félins, et ils partagent de nombreuses caractéristiques avec leurs cousins ​​les lions, les tigres et les panthères.
                 </blockquote>
                 <a href="#debut">Retourner en debut de page</a>
+                
+                
                 <!-- permet d'ajouter du code dans une page HTML -->
                 <hr>
                 <pre>
